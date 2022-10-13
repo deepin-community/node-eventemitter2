@@ -1,0 +1,2 @@
+version=4
+https://github.com/hij1nx/EventEmitter2/tags .*/archive/.*/v?(\d[\d\.]+).tar.gz

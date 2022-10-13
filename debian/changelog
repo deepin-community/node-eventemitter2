@@ -1,0 +1,71 @@
+node-eventemitter2 (6.4.5-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * New upstream version 6.4.5
+  * Drop test patch
+  * Update test
+
+ -- Yadd <yadd@debian.org>  Mon, 15 Nov 2021 08:13:40 +0100
+
+node-eventemitter2 (6.4.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.1
+  * Update build dependencies: replace deprecated "node-uglify or
+    yui-compressor" by uglifyjs
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 18 Jan 2021 09:34:58 +0100
+
+node-eventemitter2 (6.4.3-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Make "Files: *" paragraph the first in the copyright file.
+  * Update Vcs-* headers to use salsa repository.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs
+  * New upstream version 6.4.3
+  * Update docs
+  * Fix upstream tests
+  * Enable upstream test using nodeunit
+  * Fix warning
+  * Update copyright
+  * Apply multi-arch hints
+  * Update homepage
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 26 Oct 2020 06:11:04 +0100
+
+node-eventemitter2 (0.4.13-2) unstable; urgency=medium
+
+  * Rewrite descriptions
+
+  [ Matthew Pideil ]
+  * Copyright:
+    + rename MIT to Expat
+    + add missing copyright section for two test files
+  * Add Build-Deps: nodejs
+  * Remove useless Depends of libjs-eventemitter2: nodejs
+  * Recommends: javascript-common
+
+ -- Jérémy Lal <kapouer@melix.org>  Mon, 19 May 2014 16:32:37 +0200
+
+node-eventemitter2 (0.4.13-1) unstable; urgency=low
+
+  * Initial release (Closes: #742458)
+
+ -- Matthew Pideil <matthewp_debian@teledetection.fr>  Sat, 29 Mar 2014 00:43:10 +0000
